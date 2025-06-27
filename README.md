@@ -63,3 +63,39 @@ Interpret model coefficients
 Source: Kaggle Dataset - harishkumardatalab/housing-price-prediction
 
 
+TASK-4
+
+# Breast Cancer Classification with Logistic Regression 🎯
+
+This project implements a binary classification pipeline using **Logistic Regression** on the **Breast Cancer Wisconsin Dataset**.
+
+## 📌 Tasks Performed
+
+- Loaded and cleaned the dataset
+- Encoded target labels (Malignant/Benign)
+- Standardized features using `StandardScaler`
+- Trained a Logistic Regression classifier
+- Evaluated using:
+  - Accuracy, Precision, Recall
+  - Confusion Matrix
+  - ROC Curve and AUC Score
+- Tuned classification threshold
+- Explained the Sigmoid function with a plot
+
+## 🧰 Tools Used
+
+- Python, Pandas, NumPy
+- Matplotlib, Seaborn
+- Scikit-learn
+- Google Colab
+- `kagglehub` to fetch dataset
+
+## 📁 Dataset
+
+- [Breast Cancer Wisconsin Dataset](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)
+- Downloaded using:
+  ```python
+  path = kagglehub.dataset_download("uciml/breast-cancer-wisconsin-data")
+
+
+
