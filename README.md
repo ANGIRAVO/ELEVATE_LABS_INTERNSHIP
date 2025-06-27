@@ -45,4 +45,21 @@ This project performs **exploratory data analysis** on the Titanic dataset to un
 
 - ~78% accuracy using Logistic Regression
 
+  TASK 3
+  🗂️ Key Tasks
+Load and preprocess dataset
+
+Split data into train/test sets
+
+Train Linear Regression model
+
+Predict housing prices
+
+Evaluate using MAE, MSE, RMSE, R²
+
+Visualize actual vs predicted results
+
+Interpret model coefficients
+Source: Kaggle Dataset - harishkumardatalab/housing-price-prediction
+
 
